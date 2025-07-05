@@ -42,8 +42,17 @@
  }
  
   main img{
-  width: 100vw;
- height: 100vh; 
+  width: 300px;
+ height: 90px; 
+  }
+  #main-section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(mid-2.jpg);
+    background-size: cover;
+    background-position: center;
+        display: flex;
+    justify-content: center;
   }
 
   #p1{
@@ -61,33 +70,34 @@
     margin: 0px;
     padding: 0px;
   }
-
-  menu div{
+/* 
+  #p1 div{
     height: 150px;
-    width: 20%;
-    border: 1px solid gray;
+    
+    border: 2px solid black;
     display: flex;
     align-items:flex-end;
     justify-content:center;
-    color: gray;
+    background-color: grey;
+
+  } */
+
+
   
-  }
-  menu nav{
+  
+  #p1 nav{
     display: flex;
     align-items: center;
     padding-left: 200px;
     margin-top: 50px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
   }
   .m1{
-    
+   background-color: rgba(128, 128, 128, 0.384); 
     height:200px;
     width: 230px;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
+    font-size: large;
+    di
+
   }
     
   .m1 .m1img{
@@ -100,32 +110,85 @@
 .m1 .m1text{
     width: 100%;
     height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
   }
 
 
   .m2{
-    background-image: url(box-2.png);
-    height:150px;
+     
+     background-color: rgba(128, 128, 128, 0.384); 
+    height:200px;
     width: 230px;
-    margin: 0px;
-    padding: 0px;
+    font-size: large;
+    
+  }
+
+   .m2 .m2img{
+    width: 100%;
+    height: 70%;
+    background-image: url(box-2.png);
+    background-size: cover;
+    background-position: center;
+  }
+.m2 .m2text{
+    width: 100%;
+    height: 30%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
   }
 
   .m3{
-    background-image: url(box-3.png);
-    height:150px;
+        background-color: rgba(128, 128, 128, 0.384); 
+    height:200px;
     width: 230px;
-    margin: 0px;
-    padding: 0px;
+    font-size: large;
+  }
+  .m3 .m3img{
+    width: 100%;
+    height: 70%;
+    background-image: url(box-3.png);
+    background-size: cover;
+    background-position: center;
+  }
+.m3 .m3text{
+    width: 100%;
+    height: 30%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
   }
 
+
+
   .m4{
-    background-image: url(box-4.png);
-    height:150px;
+   background-color: rgba(128, 128, 128, 0.384); 
+    height:200px;
     width: 230px;
-    margin: 0px;
-    padding: 0px;
+    font-size: large;
   }
+  .m4 .m4img{
+    width: 100%;
+    height: 70%;
+    background-image: url(box-4.png);
+    background-size: cover;
+    background-position: center;
+  }
+.m4 .m4text{
+    width: 100%;
+    height: 30%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+  }
+
 
 
 #l1{
