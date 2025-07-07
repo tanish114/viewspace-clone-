@@ -479,5 +479,70 @@ footer div ul:hover{
   color: aliceblue;
 }
 
+@media(max-width:430px){
+  #main-section{
+    height: 200px;
+    width: 430px;
+  }
+  #p1{
+    padding-top: 15px;
+    width: 430px;
+  }
+  #p1 nav{
+    
+    padding-left: 10px;
+    margin-top: 50px;
+    width: 430px;
+    gap: 10px;
+    padding-right: 10px;
 
+  }
+  #l1{
+   width: 430px;
+  height: 100%;
+    padding-top: 20px;
+     padding-left: 10px;
+    padding-right: 10px; 
+  }
+  #l1 .para1{
+    text-align: left;
+  }
+  #l1 .para9{
+    visibility: hidden;
+    
+  }
+  #l1 video{
+    height: 400px;
+  width: 430px;
+ 
+  display: flex;
+  justify-content: center;
+  padding-left:0px;
+  margin-top: 0px;
+  padding-right: 20px;
+  }
+  .para6{
+  padding-top: 10px;
+  padding-left: 10px;
+padding-bottom: 50px;
+  }
+  footer div{
+ 
+  width: 430px;
+  height: 100%;
+}
+   .para7{
+  padding-top: 40px;
+  padding-left: 10px;
+padding-bottom: 50px;
+  }
+   .para8{
+  padding-top: 10px;
+   padding-left: 0px;
+   
+padding-bottom: 50px;
+text-align: right;
+  }
+  
+}
 
