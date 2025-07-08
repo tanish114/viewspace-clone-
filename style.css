@@ -4,9 +4,13 @@
    box-sizing: border-box;
    margin: 0px;
     padding: 0px;
+    
    
   }
- 
+  
+ #check{
+  display: none;
+ }
   img{
     max-width: 100%;
     display: block;
@@ -22,6 +26,8 @@
     align-items: center;
     margin: 0px;
     padding: 0px;
+    
+    
   }
 
   #navbar img{
@@ -223,6 +229,7 @@ margin: 0px;
   font-size: large;
   color: aliceblue;
   padding-top: 50px;
+  text-align: center;
 }
 
 #l1 video{
@@ -238,6 +245,7 @@ margin: 0px;
     font-size: large;
   color: aliceblue;
   padding-top: 50px;
+  text-align: center;
 }
 
 .p-heading{
@@ -249,6 +257,7 @@ margin: 0px;
     font-size: large;
   color: aliceblue;
   padding-top: 50px;
+  text-align: center;
 }
 
 .div-box{
@@ -342,6 +351,7 @@ margin: 0px;
    font-size: large;
   color: aliceblue;
   padding-top: 50px;
+  text-align: center;
 }
 
 #last-box{
@@ -424,6 +434,7 @@ margin: 0px;
    font-size: large;
   color: aliceblue;
   padding-top: 150px;
+  text-align: center;
 }
 .a1{
   color: aqua;
@@ -470,6 +481,7 @@ footer div{
  padding-right: 80px;
  font-size: 17px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 footer div ul:hover{
@@ -485,7 +497,19 @@ footer div ul:hover{
   color: aliceblue;
 }
 
+
+#bar{
+ position: absolute;
+ top: 2%;
+ right: 5%;
+ display: none;
+ color: aliceblue;
+}
 @media(max-width:430px){
+
+  #bar{
+    display: block;
+  }
   #main-section{
     height: 200px;
     width: 100%;
@@ -539,27 +563,33 @@ padding-bottom: 50px;
   padding-left: 10px;
 padding-bottom: 50px;
   }
-   .para8{
-  padding-top: 10px;
-   padding-left: 0px;
-   
-padding-bottom: 50px;
-text-align: right;
-  }
+  
   #navbar img{
    height: 100px;
    width: 110px;
    padding-left: 10px;
     }
-#navbar{
-   height: 30px;
-   width: 100%;
+ #navbar{
    
-  }
-   body{
-    overflow-x: hidden;
+    height: 30px;
+    width: 100%;
     
+      
   }
+   #navbar div ul{
+    display: none;
+  }
+  #check:checked~#navbar div ul{
+    display: block;
+    width: 100%;
+    background-color: blanchedalmond;
+   position: absolute;
+   top: 5%;
+   left: 0px;
+
+  }
+  
+  
 
 }
 
