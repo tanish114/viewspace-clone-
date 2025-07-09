@@ -552,6 +552,7 @@ footer div ul:hover{
   padding-top: 10px;
   padding-left: 10px;
 padding-bottom: 50px;
+font-size: medium;
   }
   footer div{
  
@@ -562,6 +563,7 @@ padding-bottom: 50px;
   padding-top: 40px;
   padding-left: 10px;
 padding-bottom: 50px;
+font-size: medium;
   }
   
   #navbar img{
@@ -589,7 +591,40 @@ padding-bottom: 50px;
 
   }
   
+  .para1{
+    font-size:medium;
+    text-align: center;
+    
+  }
+  .para2{
+    font-size:medium;
+    text-align: center;
+    
+  }
+  .para3{
+    font-size:medium;
+    text-align: center;
+    
+  }
+  .para4{
+    font-size:medium;
+    text-align: center;
+    
+  }
+  .para5{
+    font-size:medium;
+    text-align: center;
+    
+  }
+  .para8{
+    font-size:medium;
+    text-align: center;
+    color: aliceblue;
+  }
   
+  footer div ul{
+    padding-left: 20px;
+  }
 
 }
 
